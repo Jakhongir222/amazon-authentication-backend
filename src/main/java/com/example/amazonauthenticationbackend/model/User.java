@@ -1,7 +1,6 @@
 package com.example.amazonauthenticationbackend.model;
 
 import jakarta.persistence.*;
-
 import java.util.List;
 
 @Entity
@@ -74,11 +73,5 @@ public class User {
     public void setStoreId(Long storeId) {
         this.storeId = storeId;
     }
-}
-
-enum Role {
-    ADMIN,
-    SUPER_ADMIN,
-    USER
 }
 
