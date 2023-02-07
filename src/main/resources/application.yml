@@ -1,0 +1,29 @@
+debug: true
+server:
+  port:
+spring:
+  sql:
+    init:
+      platform: postgresql
+      mode: always
+  output:
+    ansi:
+      enabled: always
+  datasource:
+    driver-class-name:
+    url: jdbc:postgresql://snuffleupagus.db.elephantsql.com/pewebbon
+    username: pewebbon
+    password: Os0U22E6xftUBbqH2RwFhLuT-8hoqfT_
+
+  jpa:
+    show-sql: true
+    generate-ddl: true
+    defer-datasource-initialization: true
+    hibernate:
+      ddl-auto: create-drop
+logging:
+  level:
+    org:
+      springframework:
+        boot:
+          autoconfigure: ERROR
