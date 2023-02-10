@@ -1,6 +1,6 @@
 package com.example.amazonauthenticationbackend.model;
 
-enum Role {
+public enum Role {
     ADMIN,
     SUPER_ADMIN,
     USER
